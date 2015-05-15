@@ -1,8 +1,27 @@
 /*****************   navbar style start   ********************/
+/******My Changes*******/
 .navbar-default  .nav, .navbar-default  .navbar-collapse, .navbar-default > div{
 	background-color: #33b5e5;
 	border-color: #0099cc;
-}.navbar-default {
+}
+.navbar-default .navbar-form .dropdown-menu {
+  background-color: #33b5e5;
+}
+.navbar-default .navbar-form .dropdown-menu > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-form  .dropdown-menu > li > a:hover,
+.navbar-default .navbar-form .dropdown-menu > li > a:focus {
+  color: #8ad5f0;
+  background-color: #0099cc;
+}
+.navbar-default .navbar-form  .dropdown-menu > li > .divider {
+  background-color: #33b5e5;
+}
+/******My Changes*******/
+
+
+.navbar-default {
   background-color: #33b5e5;
   border-color: #0099cc;
 }
