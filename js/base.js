@@ -7,3 +7,8 @@ $('#navbar-search-form .dropdown-menu li a').each(function(id, elem){
 		$('#navbar-subject-chooser').html(elem.text + '<span class="caret"></span>');
 	}
 });
+$('table.table-select tr').each(function(idx, elem){
+	elem.onclick = function(event){
+		$(elem).toggleClass('selected-row');
+	}
+});

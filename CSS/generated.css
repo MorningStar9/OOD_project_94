@@ -4,6 +4,10 @@
 	background-color: #33b5e5;
 	border-color: #0099cc;
 }
+*:s{
+	background-color: #398439;
+	border-color: #66512c;
+}
 .navbar-default .navbar-form .dropdown-menu {
   background-color: #33b5e5;
 }
